@@ -1,13 +1,7 @@
 {
   "name": "lib-markdown",
   "version": "1.0.7",
-  "main": "./cli.js",
-  "bin": {
-    "lib-markdown": "./cli.js"
-  },
-  "license": "ISC",
-  "type": "module",
-  "preferGlobal": true,
+  "description": "Lib to find [links](URL) pattern in markdown files",
   "keywords": [
     "Javascript",
     "NodeJs",
@@ -15,17 +9,23 @@
     "URL",
     "Library"
   ],
+  "main": "./cli.js",
+  "bin": {
+    "lib-markdown": "./cli.js"
+  },
+  "preferGlobal": true,
   "author": "Wesley Rebouças",
+  "license": "ISC",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/WesleyReboucas/Nodejs-with-Express/tree/main/markdown-library.git"
   },
-  "description": "Lib to find [links](URL) pattern in markdown files",
   "homepage": "https://github.com/WesleyReboucas/Nodejs-with-Express/tree/main/markdown-library#readme",
   "bugs": {
     "url": "https://github.com/WesleyReboucas/Nodejs-with-Express/tree/main/markdown-library/issues",
     "email": "wesley.reboucas@gmail.com"
   },
+  "type": "module",
   "scripts": {
     "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
     "cli": "node cli.js"
