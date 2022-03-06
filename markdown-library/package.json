@@ -18,12 +18,12 @@
   "author": "Wesley Rebouças",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/WesleyReboucas/Nodejs-with-Express.git"
+    "url": "git+https://github.com/WesleyReboucas/Nodejs-with-Express/tree/main/markdown-library.git"
   },
   "description": "Lib to find [links](URL) pattern in markdown files",
-  "homepage": "https://github.com/WesleyReboucas/Nodejs-with-Express#readme",
+  "homepage": "https://github.com/WesleyReboucas/Nodejs-with-Express/tree/main/markdown-library#readme",
   "bugs": {
-    "url": "https://github.com/WesleyReboucas/Nodejs-with-Express/issues",
+    "url": "https://github.com/WesleyReboucas/Nodejs-with-Express/tree/main/markdown-library/issues",
     "email": "wesley.reboucas@gmail.com"
   },
   "scripts": {
