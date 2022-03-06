@@ -1,0 +1,58 @@
+{
+  "name": "lib-markdown",
+  "version": "1.0.7",
+  "main": "./cli.js",
+  "bin": {
+    "lib-markdown": "./cli.js"
+  },
+  "license": "ISC",
+  "type": "module",
+  "preferGlobal": true,
+  "keywords": [
+    "Javascript",
+    "NodeJs",
+    "Markdown",
+    "URL",
+    "Library"
+  ],
+  "author": "Wesley Rebouças",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WesleyReboucas/Nodejs-with-Express.git"
+  },
+  "description": "Lib to find [links](URL) pattern in markdown files",
+  "homepage": "https://github.com/WesleyReboucas/Nodejs-with-Express#readme",
+  "bugs": {
+    "url": "https://github.com/WesleyReboucas/Nodejs-with-Express/issues",
+    "email": "wesley.reboucas@gmail.com"
+  },
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "cli": "node cli.js"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "node-fetch": "^3.1.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^8.5.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.3",
+    "@babel/preset-env": "^7.16.7",
+    "babel-jest": "^27.4.5",
+    "jest": "^27.4.5",
+    "jest-nyancat-reporter": "^2.0.0"
+  },
+  "jest": {
+    "transform": {},
+    "reporters": [
+      [
+        "jest-nyancat-reporter",
+        {
+          "suppressErrorReporter": false
+        }
+      ]
+    ]
+  }
+}
