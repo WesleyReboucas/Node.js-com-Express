@@ -1,7 +1,7 @@
 {
-  "name": "lib-markdown",
+  "name": "lib-md-links",
   "version": "1.0.7",
-  "description": "Lib to find [links](URL) pattern in markdown files",
+  "description": "First lib was created by myself to find [links](URL) in markdown files.",
   "keywords": [
     "Javascript",
     "NodeJs",
@@ -11,7 +11,7 @@
   ],
   "main": "./cli.js",
   "bin": {
-    "lib-markdown": "./cli.js"
+    "lib-md-links": "./cli.js"
   },
   "preferGlobal": true,
   "author": "Wesley Rebouças",
